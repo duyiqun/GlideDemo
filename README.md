@@ -1,2 +1,2 @@
 # GlideDemo
-  Glide的实例代码
+  Glide的示例代码
