@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         mMyPic = (ImageView) findViewById(R.id.iv_mypic);
     }
 
+    //加载静态图片
     public void getStatic(View v) {
         Glide.with(this)
                 .load("https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png")
@@ -31,9 +32,10 @@ public class MainActivity extends AppCompatActivity {
                 .into(mMyPic);
     }
 
+    //加载动态图片
     public void getDynamic(View v) {
         Glide.with(this)
-                .load("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3747120523,2884131724&fm=21&gp=0.jpg")
+                .load("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490895397413&di=45e1b1226e6683d3ed4e1695597ba95b&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01030a577df93e0000018c1b455222.gif")
                 .into(mMyPic);
     }
 }
